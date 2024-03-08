@@ -1,0 +1,1 @@
+declare module "*"; // so typesctipt can shutup
