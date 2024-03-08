@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+$Inter: "Inter", sans-serif;
+
+// colors
+$dark: #1f1f1f;
+$light: #dfdfdf;
+$primary: #3f5e8d;
+
+// spacing
+$spacing-md: 16px;
+$spacing-lg: 32px;
+
+// border radius
+$borderRadius: 12px;
+
+// header height
+$headerHeight: 80px;
+
+@mixin breakpoint($point) {
+    @if $point == md {
+        @media (min-width: 48em) {
+            @content;
+        }
+    }
+}
